@@ -1,4 +1,6 @@
-package vasilivanov.entities;
+package vasilivanov.dao;
+
+import vasilivanov.entities.Partecipation;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;

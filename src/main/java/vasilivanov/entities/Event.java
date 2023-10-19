@@ -5,11 +5,11 @@ import vasilivanov.enums.EventType;
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Set;
 
 @Entity
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @Table(name = "events")
-public class Event {
+public abstract class Event {
   @Id
   @GeneratedValue
   private long id;
@@ -21,8 +21,7 @@ public class Event {
   @ManyToOne
   @JoinColumn(name = "location_id")
   private Location location;
-  @OneToMany(mappedBy = "event", cascade = CascadeType.ALL)
-  private Set<Partecipation> partecipationList;
+
 
   public Event() {
   }

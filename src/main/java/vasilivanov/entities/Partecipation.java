@@ -3,6 +3,7 @@ package vasilivanov.entities;
 import vasilivanov.enums.PartecipationStatus;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name = "partecipations")
@@ -19,6 +20,12 @@ public class Partecipation {
   @ManyToOne
   @JoinColumn(name = "event_id")
   private Event event;
+
+  @ManyToMany
+  @JoinColumn(name = "event_id")
+  @JoinTable(name = "competion_partecipation", joinColumns = @JoinColumn(name = "partecipation_id"),
+          inverseJoinColumns = @JoinColumn(name = "competion_id"))
+  private Set<AthleticCompetion> atCompetion;
 
   public Partecipation() {
   }

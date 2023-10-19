@@ -22,6 +22,7 @@ public class User {
   @OneToMany(mappedBy = "user")
   private List<Partecipation> partecipationList;
 
+
   public User() {
   }
 

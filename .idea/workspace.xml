@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a23363-c81f-4087-9c5d-3576d31daeb8" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/dao/ConcertDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/AthleticCompetion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/Concert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/FootballMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/enums/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vasilivanov/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/EventDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/dao/EventDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/LocationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/dao/LocationDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/Partecipation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/Partecipation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/PartecipationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/dao/PartecipationDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasilivanov/entities/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasilivanov/dao/UserDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +40,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "IvanovVasil02"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IvanovVasil02&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -73,6 +86,7 @@
       <recent name="C:\Users\vasco\Desktop\epicode\UNIT-4\W2\u4-d2-w3-JPA-CRUD\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vasilivanov.dao" />
       <recent name="vasilivanov.entities" />
     </key>
   </component>
@@ -152,6 +166,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <MESSAGE value="creating classes and adding database tables" />
     <MESSAGE value="Class implementation and data addition" />
     <MESSAGE value="addition cascade annotation" />
